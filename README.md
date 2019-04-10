@@ -2,4 +2,4 @@
 
 ## Versions
 
-- [v0.1](versions/0.1.md) - *Current*
+- [v1.0.0](versions/1.0.0.md) - *Current*
