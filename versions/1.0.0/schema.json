@@ -42,6 +42,11 @@
             "type": "string",
             "description": "A URL representing the a user's profile URL on GitHub, Gitlab, etc. This URL is used for substituting @bcoe with https://github.com/bcoe in commit messages.",
             "default": "{{host}}/{{user}}"
+        },
+        "releaseCommitMessageFormat": {
+            "type": "string",
+            "description": "A string to be used to format the auto-generated release commit message.",
+            "default": "chore(release): {{currentTag}}"
         }
     },
     "definitions": {
