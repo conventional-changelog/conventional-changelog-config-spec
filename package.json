@@ -1,5 +1,5 @@
 {
-  "name": "@conventional-changelog/conventional-changelog-config-spec",
+  "name": "conventional-changelog-config-spec",
   "version": "1.0.0",
   "description": "a spec describing the config options supported by conventional-config for upstream tooling",
   "main": "index.js",
@@ -12,10 +12,12 @@
     "url": "git+https://github.com/conventional-changelog/conventional-changelog-config-spec.git"
   },
   "keywords": [
+    "conventional-changelog",
+    "conventional",
+    "changelog",
     "spec"
   ],
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/conventional-changelog/conventional-changelog-config-spec/issues"
   },
