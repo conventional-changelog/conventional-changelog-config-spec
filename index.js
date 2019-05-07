@@ -1,1 +1,1 @@
-module.exports = require('./versions/1.0.0/schema.json')
+module.exports = require('./versions/2.0.0/schema.json')
