@@ -1,6 +1,6 @@
 {
   "name": "conventional-changelog-config-spec",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "a spec describing the config options supported by conventional-config for upstream tooling",
   "main": "index.js",
   "scripts": {
