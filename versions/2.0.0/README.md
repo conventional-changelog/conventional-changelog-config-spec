@@ -2,7 +2,7 @@
 
 ## Structure
 
-- [title](#title-string)
+- [header](#header-string)
 - [types](#types)
   - [type](#type)
 - [preMajor](#premajor-boolean)
@@ -22,9 +22,9 @@
 
 ---
 
-### title (`string`)
+### header (`string`)
 
-A string to be used as the main title of the CHANGELOG.
+A string to be used as the main header of the CHANGELOG.
 
 ```
 Changelog
