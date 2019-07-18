@@ -24,7 +24,7 @@
   "homepage": "https://github.com/conventional-changelog/conventional-changelog-config-spec#readme",
   "devDependencies": {
     "ajv": "6.10.2",
-    "mocha": "6.1.4",
+    "mocha": "6.2.0",
     "standard": "13.0.2"
   }
 }
