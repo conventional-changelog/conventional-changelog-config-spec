@@ -25,6 +25,6 @@
   "devDependencies": {
     "ajv": "6.10.2",
     "mocha": "6.2.0",
-    "standard": "13.0.2"
+    "standard": "13.1.0"
   }
 }
