@@ -13,10 +13,10 @@ module.exports = function (schema) {
       const ajv = new Ajv()
       const validate = ajv.compile(schema)
       const mock = {
-        'types': [
-          { 'type': 'feat', 'section': 'Features' },
-          { 'type': 'fix', 'section': 'Bug Fixes' },
-          { 'type': 'imp', 'hidden': true }
+        types: [
+          { type: 'feat', section: 'Features' },
+          { type: 'fix', section: 'Bug Fixes' },
+          { type: 'imp', hidden: true }
         ]
       }
       assert(validate(mock))
@@ -26,10 +26,10 @@ module.exports = function (schema) {
       const ajv = new Ajv()
       const validate = ajv.compile(schema)
       const mock = {
-        'types': [
-          { 'type': 'feat', 'section': 'Features' },
-          { 'type': 'fix', 'this_will_be_invalid': 'Bug Fixes' },
-          { 'type': 'docs', 'hidden': true }
+        types: [
+          { type: 'feat', section: 'Features' },
+          { type: 'fix', this_will_be_invalid: 'Bug Fixes' },
+          { type: 'docs', hidden: true }
         ]
       }
       assert(validate(mock) === false)

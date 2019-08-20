@@ -19,7 +19,7 @@ describe('v2.0.0', function () {
     const ajv = new Ajv()
     const validate = ajv.compile(schema)
     const mock = {
-      'header': '#`changelog`\n\n'
+      header: '#`changelog`\n\n'
     }
     assert(validate(mock))
   })
