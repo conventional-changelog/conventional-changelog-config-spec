@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "pretest": "standard",
-    "test": "npx mocha tests/*.test.js"
+    "test": "npx mocha tests/*.test.js",
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
   "devDependencies": {
     "ajv": "6.10.2",
     "mocha": "^6.2.0",
-    "standard": "14.0.0"
+    "standard": "14.0.0",
+    "standard-version": "^7.0.0"
   }
 }
