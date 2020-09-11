@@ -27,6 +27,6 @@
     "ajv": "6.10.2",
     "mocha": "6.2.1",
     "standard": "14.0.0",
-    "standard-version": "7.0.1"
+    "standard-version": "8.0.1"
   }
 }
