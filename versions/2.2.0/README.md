@@ -1,4 +1,4 @@
-# Conventional Changelog Configuration Spec (v2.1.0)
+# Conventional Changelog Configuration Spec (v2.2.0)
 
 ## Structure
 
